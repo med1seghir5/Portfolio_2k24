@@ -2,7 +2,7 @@ import React from 'react';
 
 const Exper = () => {
   return (
-    <div className='flex flex-col mr-10 pl-14 sm:flex-row pl-44 mr-32 pb-28 '>
+    <div className='flex flex-col mr-5 pl-5 sm:flex-row pl-44 mr-32 pb-28 '>
       <div className='sm:basis-1/2 p-4 sm:p-16 text-center'>
         <div className='pt-4 sm:pt-14 text-center font-poppins text-3xl sm:text-5xl text-[#0B9EEA]'>
           Experiences :
