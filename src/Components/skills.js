@@ -18,7 +18,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className='sm:basis-1/2 ml-10'>
+      <div className='sm:basis-1/2 ml-7'>
         <svg
           className="h-56 w-80 ml-0 sm:ml-56 mt-4 sm:mt-44"
           fill="none"
