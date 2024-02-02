@@ -3,7 +3,7 @@ import mypic from './images/mypic.jpg';
 
 const Body = () => {
   return (
-    <div className='flex flex-col sm:flex-row sm:space-x-8 sm:ml-12'>
+    <div className='flex flex-col sm:flex-row mb-28 sm:space-x-8 sm:ml-12'>
 
       <div className='sm:basis-1/2 p-4 sm:p-20 text-center sm:text-left text-5xl sm:text-9xl'>
         <div className='font-inter text-lg sm:text-2xl pb-3 sm:pb-5'>
@@ -24,8 +24,8 @@ const Body = () => {
         </div>
       </div>
 
-      <div className=' ml-7 sm:basis-1/2 mt-8 mr-5 sm:ml-10'>
-        <img src={mypic} width={"40%"} className='rounded-full shadow-xl shadow-slate-500 ml-24' alt='My Picture' />
+      <div className='sm:basis-1/2 mt-8 mr-5 sm:ml-10'>
+        <img src={mypic} width={"60%"} className='rounded-full shadow-xl shadow-slate-500 ml-20' alt='My Picture' />
       </div>
     </div>
   );

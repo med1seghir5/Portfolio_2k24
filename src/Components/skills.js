@@ -6,7 +6,7 @@ import react from './images/react.svg';
 
 const Skills = () => {
   return (
-    <div className='flex flex-col sm:flex-row p-4 sm:p-16'>
+    <div className='flex flex-col mr-5 pl-5 sm:flex-row pl-44 mr-32 pb-28'>
       <div className='sm:basis-1/2 pb-4 sm:pb-10'>
         <div className='pt-4 text-center sm: mr-30 text-left font-poppins text-3xl sm:text-5xl text-[#0B9EEA]'>Coding skills :</div>
         <div className='text-base sm:text-xl font-poppins pt-4 sm:pt-12 ml-0 sm:ml-48'>
@@ -18,9 +18,10 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className='pl-12 sm:basis-1/2 ml-7'>
+      <div className="sm:basis-1/2 pt-4 sm:pt-20 mx-auto sm:pl-80">
         <svg
-          className="h-56 sm:ml-56 mt-4 sm:mt-44"
+          width="200px"
+          height="200px"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
