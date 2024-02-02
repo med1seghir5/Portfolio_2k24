@@ -3,27 +3,14 @@ import pic from './images/pic.svg';
 
 const Navbar = () => {
   return (
-    <div className='flex flex-col sm:flex-row items-center sm:justify-between space-y-4 sm:space-y-0 sm:space-x-8 ml-4 sm:ml-32' id='page'>
+    <div className='flex flex-row space-x-28 ml-12 space-y-7 sm:flex-row items-center sm:justify-between space-y-4 sm:space-y-0 sm:space-x-8 ml-4 sm:ml-32' id='page'>
       <div className='sm:mb-0'>
-        <img src={pic} className='w-56 h-48' alt='Profile Pic' />
+        <img src={pic} className='w-52 h-52' alt='Profile Pic' />
       </div>
-
-      <div className='flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8 font-inter text-2xl'>
-        <a href="https://www.linkedin.com/in/mohamed-seghir-abdelmalek-111678290/" id='Link'>
-          <button className='text-[#0B9EEA]'>Linkedin</button>
-        </a>
-        <a href="https://www.facebook.com/mohamedseghir.abdelmalek/" id='facebook'>
-          <button>Facebook</button>
-        </a>
-        <a href="https://github.com/med1seghir5/med1seghir5/" id='github'>
-          <button>Github</button>
-        </a>
-      </div>
-
-      <div className='pb-10 sm:mt-0'>
+      <div className='pb-10 sm:mt-0 pr-5'>
         <button className='ml-0 sm:ml-16'>
           <svg
-            className='w-8 h-8 sm:w-12 sm:h-12 text-gray-800 dark:text-white'
+            className='w-28 h-8 sm:w-12 sm:h-12 text-gray-800 dark:text-white'
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
