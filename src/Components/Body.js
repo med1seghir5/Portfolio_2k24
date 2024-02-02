@@ -25,7 +25,7 @@ const Body = () => {
       </div>
 
       <div className=' ml-7 sm:basis-1/2 mt-8 mr-5 sm:ml-10'>
-        <img src={mypic} width={"50%"} className='rounded-full shadow-xl shadow-slate-500 ml-24' alt='My Picture' />
+        <img src={mypic} width={"40%"} className='rounded-full shadow-xl shadow-slate-500 ml-24' alt='My Picture' />
       </div>
     </div>
   );

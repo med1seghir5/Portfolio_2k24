@@ -18,9 +18,9 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className='pl-3 sm:basis-1/2 ml-7'>
+      <div className='pl-12 sm:basis-1/2 ml-7'>
         <svg
-          className="h-56 w-80 ml-0 sm:ml-56 mt-4 sm:mt-44"
+          className="h-56 sm:ml-56 mt-4 sm:mt-44"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"

@@ -3,7 +3,7 @@ import React from 'react'
 const Socialmedia = () => {
   return (
     <div>
-      <div className='flex flex-row pb-12 space-x-36 space-y-0 border-t-2 p-2 sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8 font-inter text-2xl'>
+      <div className='flex flex-row pb-5 space-x-20 justify-center space-y-0 border-t-2 p-2 sm:flex-row space-y-0 sm:space-y-0 sm:space-x-8 font-inter text-2xl'>
         <a href="https://www.linkedin.com/in/mohamed-seghir-abdelmalek-111678290/" id='Link'>
           <button className='text-[#0B9EEA]'>
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48" className=''>
