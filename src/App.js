@@ -3,6 +3,7 @@ import Body from './Components/Body';
 import Exper from './Components/exper';
 import Navbar from './Components/navbar';
 import Skills from './Components/skills';
+import Socialmedia from './Components/socialmedia';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Body />
       <Skills />
       <Exper />
+      <Socialmedia />
     </div> 
     )
 }

@@ -14,7 +14,7 @@ const Exper = () => {
         </div>
       </div>
 
-      <div className='sm:basis-1/2 pt-4 sm:pt-20 mx-auto sm:pl-72'>
+      <div className='sm:basis-1/2 pt-4 sm:pt-20 mx-auto sm:pl-80'>
         <svg
           width="200px"
           height="200px"
