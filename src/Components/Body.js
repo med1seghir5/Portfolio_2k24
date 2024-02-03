@@ -18,7 +18,7 @@ const Body = () => {
           the University of Batna 2, and I am a web developer.
         </div>
         <div className='text-base sm:text-lg mt-4 sm:mt-8'>
-          <button className='bg-[#0B9EEA] rounded-full w-36 h-10 font-poppins shadow-lg shadow-gray-400'>
+          <button className='text-[#ffff] bg-[#0B9EEA] rounded-full w-36 h-10 font-poppins shadow-lg shadow-gray-400'>
             Contact me
           </button>
         </div>
