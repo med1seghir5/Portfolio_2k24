@@ -3,6 +3,7 @@ import html from './images/html.svg';
 import css from './images/css.svg';
 import tailwind from './images/tailwind.svg';
 import react from './images/react.svg';
+import js from './images/js.svg'
 
 const Skills = () => {
   return (
@@ -12,7 +13,7 @@ const Skills = () => {
         <div className='text-base sm:text-xl font-poppins pt-4 sm:pt-12 ml-0 sm:ml-48'>
            <img src={html} width={"500px"} alt='HTML Logo' />
            <img src={css} width={"500px"} alt='CSS Logo' />
-           <img src={react} width={"500px"} alt='JavaScript Logo' />
+           <img src={js} width={"500px"} alt='JavaScript Logo' />
            <img src={tailwind} width={"500px"} alt='Tailwind CSS Logo' />
            <img src={react} width={"500px"} alt='React Logo' />
         </div>
